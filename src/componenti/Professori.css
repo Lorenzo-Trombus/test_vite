@@ -1,0 +1,35 @@
+.table-container {
+    overflow-x: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white; 
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .custom-table th {
+    background-color: #291083; 
+    color: white;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .custom-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .custom-table tr:hover {
+    background-color: #a6ddee; 
+  }
+  
+  .salary {
+    color: #4caf50;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+  }

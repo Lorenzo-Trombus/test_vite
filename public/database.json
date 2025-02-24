@@ -1,0 +1,93 @@
+{
+    "professori": {
+      "ordinari": [
+        {
+          "id": 1,
+          "nome": "Giovanni",
+          "cognome": "Rossi",
+          "materia": "Matematica Avanzata",
+          "voto_media": 28,
+          "anni_insegnamento": 15,
+          "numero_ricerca": 5,
+          "dipartimento": "Matematica"
+        },
+        {
+          "id": 2,
+          "nome": "Maria",
+          "cognome": "Bianchi",
+          "materia": "Fisica",
+          "voto_media": 30,
+          "anni_insegnamento": 20,
+          "numero_ricerca": 10,
+          "dipartimento": "Fisica"
+        }
+      ],
+      "associati": [
+        {
+          "id": 3,
+          "nome": "Luca",
+          "cognome": "Verdi",
+          "materia": "Informatica",
+          "voto_media": 26.5,
+          "anni_insegnamento": 8,
+          "numero_ricerca": 2,
+          "dipartimento": "Informatica"
+        },
+        {
+          "id": 4,
+          "nome": "Laura",
+          "cognome": "Gialli",
+          "materia": "Chimica Organica",
+          "voto_media": 27.5,
+          "anni_insegnamento": 6,
+          "numero_ricerca": 3,
+          "dipartimento": "Chimica"
+        }
+      ],
+      "ricercatori": [
+        {
+          "id": 5,
+          "nome": "Alessandro",
+          "cognome": "Blu",
+          "materia": "Neuroscienze",
+          "voto_media": 29.5,
+          "anni_insegnamento": 3,
+          "numero_ricerca": 15,
+          "dipartimento": "Psicologia",
+          "stipendio": 2000
+        },
+        {
+          "id": 6,
+          "nome": "Simona",
+          "cognome": "Rossi",
+          "materia": "Biotecnologie",
+          "voto_media": 28,
+          "anni_insegnamento": 4,
+          "numero_ricerca": 8,
+          "dipartimento": "Biotecnologie",
+          "stipendio": 1800
+        }
+      ]
+    },
+    "corsi": [
+      {
+        "id": 1,
+        "nome": "Psicologia",
+        "descrizione": "Corso introduttivo alla psicologia, teoria e pratica del comportamento umano.",
+        "professori": [1, 5]  
+      },
+      {
+        "id": 2,
+        "nome": "Fisica",
+        "descrizione": "Studio delle leggi fisiche fondamentali.",
+        "professori": [2]  
+      },
+      {
+        "id": 3,
+        "nome": "Biologia",
+        "descrizione": "Corso di biologia generale che copre anatomia, genetica e evoluzione.",
+        "professori": [3, 4]  
+      }
+    ]
+  }
+  
